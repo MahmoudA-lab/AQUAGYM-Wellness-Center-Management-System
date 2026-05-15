@@ -10,7 +10,7 @@ public class DBConnection {
         + "?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
 
 private static final String USER = "12323499_project_db";
-private static final String PASSWORD = "18118915";
+private static final String PASSWORD = "PUT_YOUR_PASSWORD";
 
     public static Connection getConnection() {
         try {
